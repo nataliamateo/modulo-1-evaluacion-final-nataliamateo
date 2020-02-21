@@ -6,30 +6,6 @@
 @import "components/articles";
 @import "components/footer";
 
-header {
-  border: 3px solid green;
-}
-
-.hamburguer-menu {
-  border: 3px solid purple;
-}
-.header-title {
-  border: 3px solid blue;
-}
-main {
-  border: 3px solid rgb(8, 8, 8);
-}
-.main-tips {
-  border: 3px solid rgb(236, 9, 9);
-}
-.main-articles {
-  border: 3px solid orange;
-}
-
-footer {
-  border: 3px solid rgb(41, 214, 18);
-}
-
-.copyright {
-  border: 3px solid yellow;
+.principal-column {
+  padding: 0 15px;
 }
