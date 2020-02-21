@@ -1,5 +1,35 @@
-@import "core/settings";
-@import "components/page";
+@import "core/variables";
+@import "core/reset";
 @import "components/header";
-@import "components/links";
+@import "components/section";
+@import "components/articles";
 @import "components/footer";
+
+header {
+  border: 3px solid green;
+}
+.hamburguer-menu {
+  border: 3px solid purple;
+}
+.header-title {
+  border: 3px solid blue;
+}
+main {
+  border: 3px solid rgb(8, 8, 8);
+}
+.main-tips {
+  border: 3px solid rgb(236, 9, 9);
+}
+.main-articles {
+  border: 3px solid orange;
+}
+
+footer {
+  border: 3px solid rgb(41, 214, 18);
+}
+.footer-menu {
+  border: 3px solid rgb(165, 25, 146);
+}
+.copyright {
+  border: 3px solid yellow;
+}
