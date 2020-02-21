@@ -27,9 +27,22 @@ main {
 footer {
   border: 3px solid rgb(41, 214, 18);
 }
-.footer-menu {
+.footser-menu {
   border: 3px solid rgb(165, 25, 146);
 }
 .copyright {
   border: 3px solid yellow;
+}
+@media all and (min-width: 768px) {
+  .main-articles {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 120px 120px 120px;
+  }
+  .principal-title {
+    grid-column: span 3;
+  }
+  .articles-button {
+    grid-column: span 3;
+  }
 }
