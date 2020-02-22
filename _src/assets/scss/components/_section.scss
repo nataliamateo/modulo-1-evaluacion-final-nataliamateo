@@ -1,0 +1,47 @@
+.insomnia-style {
+  font-family: "Roboto Regular";
+  font-size: 14px;
+  color: #8ccbea;
+  width: 90px;
+  height: 30px;
+  margin: 30px 215px 0 0px;
+}
+.section-title {
+  width: 290px;
+  height: 60px;
+  font-family: "Roboto Slab";
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.25;
+  margin-bottom: 15px;
+  text-transform: capitalize;
+}
+
+.section-text {
+  width: 290px;
+  height: 120px;
+  font-family: "Roboto Regular";
+  font-size: 18px;
+  line-height: 1.67;
+  color: #4a4a4a;
+  margin-bottom: 30px;
+}
+.section-button {
+  width: 76px;
+  height: 45px;
+  border-radius: 22.5px;
+  border: 2px solid #f26002;
+  margin-bottom: 45px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+}
+.sectionbotton-text {
+  width: 25px;
+  height: 45px;
+  font-family: "Roboto Medium";
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 2.25;
+  color: #f26002;
+}
