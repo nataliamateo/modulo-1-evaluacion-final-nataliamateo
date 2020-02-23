@@ -26,7 +26,6 @@
 .menu {
   font-family: "Roboto Regular";
   font-size: 16px;
-
   text-transform: uppercase;
   line-height: 1.88;
 }
@@ -40,4 +39,25 @@
   line-height: 2.14;
   color: white;
   padding-top: 30px;
+}
+@media all and (min-width: 768px) {
+  .principal-column {
+    padding: 0 39px;
+  }
+  .footer-menu {
+    padding-bottom: 0px;
+  }
+  .menu-item {
+    text-align: left;
+  }
+  .menu.firts {
+    width: 210px;
+    height: 150px;
+  }
+  .menu.second {
+    width: 210px;
+  }
+  .copyright {
+    text-align: left;
+  }
 }
