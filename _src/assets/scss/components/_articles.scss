@@ -56,20 +56,47 @@
     margin: 0 0;
   }
   .articles-title {
-    width: 210px;
-    height: 30px;
     font-size: 24px;
     line-height: 1.25;
+    margin: 0 0;
+    display: inline-block;
   }
   .articles-content {
     font-size: 20px;
     line-height: 1.5;
     width: 212.3px;
-    height: 68px;
+    margin: 0 0;
+    display: inline-block;
   }
   .articles-button {
     width: 210px;
     margin: 15px 241px 60px 239px;
     line-height: 2.25;
+  }
+}
+@media all and (min-width: 1280px) {
+  .principal-column {
+    padding: 0 82px;
+  }
+  .articles-principal-title {
+    width: 730px;
+    height: 45px;
+    font-size: 32px;
+    line-height: 1.41;
+  }
+
+  .articles-style {
+    width: 353.8px;
+    height: 98px;
+    justify-content: center;
+    align-self: center;
+  }
+  .articles-title {
+    margin: 0 0;
+    display: inline-block;
+  }
+  .articles-content {
+    margin: 0 0;
+    display: inline-block;
   }
 }
