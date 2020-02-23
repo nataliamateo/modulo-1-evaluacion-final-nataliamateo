@@ -39,24 +39,12 @@
     grid-column-end: 4;
     justify-self: center;
   }
-  .articles-style.first {
-    grid-column-start: 1;
-    grid-column-end: 2;
+  .articles-style {
+    grid-column: span 1;
     justify-self: center;
     align-self: center;
   }
-  .articles-style.second {
-    grid-column-start: 2;
-    grid-column-end: 3;
-    justify-self: center;
-    align-self: center;
-  }
-  .articles-style.third {
-    grid-column-start: 3;
-    grid-column-end: 4;
-    justify-self: center;
-    align-self: center;
-  }
+
   .articles-button {
     grid-column-start: 1;
     grid-column-end: 4;
