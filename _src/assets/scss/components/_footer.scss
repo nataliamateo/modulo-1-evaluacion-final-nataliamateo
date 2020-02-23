@@ -1,7 +1,6 @@
 .footer-style {
-  padding-right: 68px;
-  padding-left: 68px;
   background-color: #304268;
+  text-align: center;
 }
 .button-footer {
   width: 45px;
@@ -10,10 +9,35 @@
   border: 1px solid white;
   background-color: white;
   position: relative;
-  left: 68px;
+  text-align: center;
   bottom: 22.5px;
 }
 .menu-item {
   list-style: none;
   text-align: center;
+}
+.footer-menu {
+  padding-bottom: 45px;
+}
+
+.menu-item.first {
+  padding-bottom: 30px;
+}
+.menu {
+  font-family: "Roboto Regular";
+  font-size: 16px;
+
+  text-transform: uppercase;
+  line-height: 1.88;
+}
+.menu-links {
+  color: white;
+  text-decoration: none;
+}
+.copyright {
+  font-family: "Roboto Regular";
+  font-size: 14px;
+  line-height: 2.14;
+  color: white;
+  padding-top: 30px;
 }
