@@ -10,6 +10,7 @@
   line-height: 1.25;
   text-align: center;
   margin: 30px 15px 45px 15px;
+  text-transform: capitalize;
 }
 .articles-button {
   width: 184px;
@@ -19,6 +20,7 @@
   border: 1px solid #f26002;
   color: white;
   font-family: "Roboto";
+  font-weight: Medium;
   font-size: 20px;
 }
 .articles-button:hover {
