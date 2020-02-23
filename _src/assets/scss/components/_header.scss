@@ -59,3 +59,16 @@
     height: 32px;
   }
 }
+@media all and (min-width: 1280px) {
+  .header-title {
+    padding: 384px 275px 13px 275px;
+  }
+  .title-style {
+    width: 730px;
+    height: 264px;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    font-size: 100px;
+    line-height: 1.32;
+    margin-bottom: 0;
+  }
+}
