@@ -24,21 +24,38 @@
 }
 
 @media all and (min-width: 768px) {
+  // Medias para articles
+
   .main-articles {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 120px 120px 120px;
+    grid-template-rows: 1fr 1fr 1fr;
   }
-  .principal-title {
-    grid-column: span 3;
+  .articles-principal-title {
+    grid-column-start: 1;
+    grid-column-end: 4;
+  }
+  .articles-style.first {
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+  .articles-style.second {
+    grid-column-start: 2;
+    grid-column-end: 3;
+  }
+  .articles-style.third {
+    grid-column-start: 3;
+    grid-column-end: 4;
   }
   .articles-button {
-    grid-column: span 3;
+    grid-column-start: 1;
+    grid-column-end: 4;
   }
+  // Medias para el footer
   .footer-menu {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
   }
   .copyright {
     order: -2;
