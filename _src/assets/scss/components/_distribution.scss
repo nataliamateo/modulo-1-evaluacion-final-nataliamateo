@@ -17,6 +17,9 @@
   grid-template-columns: 1fr;
   grid-template-rows: 106px 138px 138px 138px 105px;
 }
+.articles-button {
+  justify-self: center;
+}
 .footer-menu {
   display: flex;
   flex-direction: column;
@@ -40,21 +43,25 @@
     grid-column-start: 1;
     grid-column-end: 2;
     justify-self: center;
+    align-self: center;
   }
   .articles-style.second {
     grid-column-start: 2;
     grid-column-end: 3;
     justify-self: center;
+    align-self: center;
   }
   .articles-style.third {
     grid-column-start: 3;
     grid-column-end: 4;
     justify-self: center;
+    align-self: center;
   }
   .articles-button {
     grid-column-start: 1;
     grid-column-end: 4;
     justify-self: center;
+    align-self: center;
   }
   // Medias para el footer
   .footer-menu {

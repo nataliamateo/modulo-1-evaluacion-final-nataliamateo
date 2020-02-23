@@ -16,6 +16,7 @@
   list-style: none;
   text-align: center;
 }
+
 .footer-menu {
   padding-bottom: 45px;
 }
@@ -41,11 +42,8 @@
   padding-top: 30px;
 }
 @media all and (min-width: 768px) {
-  .principal-column {
-    padding: 0 39px;
-  }
   .footer-menu {
-    padding-bottom: 0px;
+    padding: 0 39px;
   }
   .menu-item {
     text-align: left;
@@ -59,5 +57,26 @@
   }
   .copyright {
     text-align: left;
+  }
+}
+@media all and (min-width: 1280px) {
+  .button-footer {
+  }
+  .footer-menu {
+    padding: 0 370px 45px 370px;
+  }
+  .menu-item.first {
+    width: 161px;
+    height: 150px;
+    margin-right: 47px;
+    margin-left: 47px;
+  }
+  .menu.second {
+    width: 159px;
+  }
+  .copyright {
+    width: 159px;
+    height: 30px;
+    margin-right: 31px;
   }
 }

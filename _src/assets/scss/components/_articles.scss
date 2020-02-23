@@ -1,7 +1,6 @@
 .main-articles {
   background-color: #eff9ff;
 }
-
 .articles-principal-title {
   width: 290px;
   height: 30px;
@@ -21,8 +20,12 @@
   font-size: 18px;
   font-weight: bold;
   line-height: 1.67;
+  width: 184px;
+  height: 30px;
 }
 .articles-content {
+  width: 180px;
+  height: 63px;
   font-family: "Roboto Regular";
   font-size: 18px;
   line-height: 1.67;
@@ -33,7 +36,6 @@
   height: 45px;
   border-radius: 22.5px;
   background-color: #f26002;
-  margin: 0 68px 60px 68px;
   border: 1px solid #f26002;
   color: white;
   font-family: "Roboto";
@@ -41,12 +43,7 @@
 }
 
 @media all and (min-width: 768px) {
-  .principal-column {
-    padding: 0 39px;
-  }
   .articles-principal-title {
-    width: 450px;
-    height: 45px;
     margin: 30px 121px 45px 121px;
     font-size: 26px;
     font-weight: bold;
@@ -56,6 +53,7 @@
     margin: 0 0;
   }
   .articles-title {
+    width: 210px;
     font-size: 24px;
     line-height: 1.25;
     margin: 0 0;
@@ -75,22 +73,17 @@
   }
 }
 @media all and (min-width: 1280px) {
-  .principal-column {
-    padding: 0 82px;
-  }
   .articles-principal-title {
     width: 730px;
     height: 45px;
     font-size: 32px;
     line-height: 1.41;
   }
-
   .articles-style {
     width: 353.8px;
     height: 98px;
-    justify-content: center;
-    align-self: center;
   }
+
   .articles-title {
     margin: 0 0;
     display: inline-block;
@@ -98,5 +91,8 @@
   .articles-content {
     margin: 0 0;
     display: inline-block;
+  }
+  .articles-button {
+    width: 255px;
   }
 }
