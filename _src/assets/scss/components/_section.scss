@@ -39,3 +39,35 @@
   line-height: 2.25;
   color: #f26002;
 }
+@media all and(min-width: 768px) {
+  .principal-column {
+    padding: 0 39px;
+  }
+
+  .insomnia-style {
+    font-family: "Roboto Regular";
+    font-size: 14px;
+    color: #8ccbea;
+    width: 216px;
+    height: 30px;
+    margin: 30px 513px 0 0px;
+  }
+  .section-title {
+    width: 690px;
+    height: 45px;
+    font-size: 26px;
+    line-height: 1.73;
+    margin-bottom: 30px;
+  }
+  .section-text {
+    width: 690px;
+    height: 60px;
+    font-size: 20px;
+    line-height: 1.5;
+  }
+  .section-button {
+    width: 91px;
+    height: 45px;
+    margin-bottom: 60px;
+  }
+}
