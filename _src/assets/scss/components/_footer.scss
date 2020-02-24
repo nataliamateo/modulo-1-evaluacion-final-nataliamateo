@@ -3,6 +3,7 @@
   text-align: center;
 }
 .button-footer {
+  display: inline-block;
   width: 45px;
   height: 45px;
   border-radius: 22.5px;
@@ -12,6 +13,10 @@
   text-align: center;
   bottom: 22.5px;
 }
+.img-footer {
+  margin-top: 10px;
+}
+
 .menu-item {
   list-style: none;
   text-align: center;
