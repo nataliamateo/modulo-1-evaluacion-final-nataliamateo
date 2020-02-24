@@ -1,96 +1,69 @@
 .footer-style {
   background-color: $colorBackground-2;
   text-align: $textCenter;
-}
-.button-footer {
-  display: inline-block;
-  width: 45px;
-  height: 45px;
-  border-radius: 22.5px;
-  border: 1px solid $colorPrimary;
-  background-color: $colorPrimary;
-  position: relative;
-  text-align: $textCenter;
-  bottom: 22.5px;
-  animation-name: anim-footer;
-  animation-duration: 10s;
-}
-@keyframes anim-footer {
-  from {
-    transform: rotate(0deg);
+  .button-footer {
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    border-radius: 22.5px;
+    border: 1px solid $colorPrimary;
+    background-color: $colorPrimary;
+    position: relative;
+    text-align: $textCenter;
+    bottom: 22.5px;
+    animation-name: anim-footer;
+    animation-duration: 10s;
+    .img-footer {
+      margin-top: 10px;
+    }
   }
-  to {
-    background-color: $colorBackground-2;
-    transform: rotate(360deg);
+  @keyframes anim-footer {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      background-color: $colorBackground-2;
+      transform: rotate(360deg);
+    }
   }
-}
-.img-footer {
-  margin-top: 10px;
-}
-
-.menu-item {
-  list-style: none;
-  text-align: $textCenter;
 }
 
 .footer-menu {
   padding-bottom: 45px;
+  @media all and (min-width: 768px) {
+    padding-left: 39px;
+    padding-right: 39px;
+  }
+  @media all and (min-width: 1280px) {
+    padding: 0 370px 45px 370px;
+  }
+  .menu-item {
+    list-style: none;
+    text-align: $textCenter;
+    @media all and (min-width: 768px) {
+      text-align: $textLeft;
+    }
+    .menu {
+      font-family: $fontText;
+      font-size: 16px;
+      text-transform: $textUppercase;
+      line-height: 1.88;
+
+      .menu-links {
+        color: $colorPrimary;
+        text-decoration: none;
+      }
+    }
+  }
 }
 
-.menu-item.first {
-  padding-bottom: 30px;
-}
-.menu {
-  font-family: $fontText;
-  font-size: 16px;
-  text-transform: $textUppercase;
-  line-height: 1.88;
-}
-.menu-links {
-  color: $colorPrimary;
-  text-decoration: none;
-}
 .copyright {
   font-family: $fontText;
   font-size: 14px;
   line-height: 2.14;
   color: $colorPrimary;
   padding-top: 30px;
-}
-@media all and (min-width: 768px) {
-  .footer-menu {
-    padding: 0 39px;
-  }
-  .menu-item {
+  @media all and (min-width: 768px) {
     text-align: $textLeft;
-  }
-  .menu.firts {
-    width: 210px;
-    height: 150px;
-  }
-  .menu.second {
-    width: 210px;
-  }
-  .copyright {
-    text-align: $textLeft;
-  }
-}
-@media all and (min-width: 1280px) {
-  .footer-menu {
-    padding: 0 370px 45px 370px;
-  }
-  .menu-item.first {
-    width: 161px;
-    height: 150px;
-    margin-right: 47px;
-    margin-left: 47px;
-  }
-  .menu.second {
-    width: 159px;
-  }
-  .copyright {
-    width: 159px;
-    height: 30px;
-    margin-right: 31px;
   }
 }

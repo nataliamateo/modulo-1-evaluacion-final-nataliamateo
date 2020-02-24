@@ -7,6 +7,7 @@
 .header-menu {
   align-self: flex-start;
 }
+
 .header-title {
   display: flex;
   flex-direction: column;
@@ -47,6 +48,7 @@
     grid-column-start: 1;
     grid-column-end: 4;
     justify-self: center;
+    align-self: center;
   }
   .articles-style {
     grid-column: span 1;

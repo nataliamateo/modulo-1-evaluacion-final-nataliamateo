@@ -12,61 +12,50 @@
       margin: 15px 14px;
     }
   }
-}
-
-.header-title {
-  color: $colorPrimary;
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-top: 284px;
-  width: 290px;
-}
-.title-style {
-  font-size: 42px;
-  text-align: $textCenter;
-  line-height: 55px;
-  font-family: $fontTitles;
-  font-weight: $fontBold;
-  text-transform: $textUppercase;
-  margin-bottom: 10px;
-}
-.header-text {
-  font-size: 16px;
-  font-family: $fontText;
-  margin-bottom: 45px;
-  text-align: $textCenter;
-}
-.header-button {
-  position: relative;
-  width: 45px;
-  height: 45px;
-  border-radius: 22.5px;
-  background-color: $colorPrimary;
-  border: 1px solid $colorPrimary;
-}
-
-@media all and (min-width: 768px) {
-  .title-style {
-    width: 690px;
-    height: 212px;
-    font-size: 80px;
-    line-height: 1.33;
-    margin-bottom: 20px;
-  }
-  .header-text {
-    font-size: 24px;
-    margin-bottom: 30px;
-    width: 360px;
-    height: 32px;
-  }
-}
-@media all and (min-width: 1280px) {
-  .title-style {
-    width: 730px;
-    height: 264px;
-    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
-    font-size: 100px;
-    line-height: 1.32;
-    margin-bottom: 0;
+  .header-title {
+    color: $colorPrimary;
+    width: 290px;
+    padding-top: 284px;
+    @media all and (min-width: 768px) {
+      padding-top: 384px;
+    }
+    @media all and (min-width: 1280px) {
+      padding-top: 280px;
+    }
+    .title-style {
+      font-size: 42px;
+      text-align: $textCenter;
+      font-family: $fontTitles;
+      font-weight: $fontBold;
+      text-transform: $textUppercase;
+      margin-bottom: 10px;
+      @media all and (min-width: 768px) {
+        font-size: 80px;
+        margin-bottom: 20px;
+      }
+      @media all and (min-width: 1280px) {
+        text-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+        font-size: 100px;
+      }
+    }
+    .header-text {
+      font-size: 16px;
+      font-family: $fontText;
+      margin-bottom: 45px;
+      text-align: $textCenter;
+      @media all and (min-width: 768px) {
+        font-size: 24px;
+        margin-bottom: 30px;
+        width: 360px;
+      }
+    }
+    .header-button {
+      position: relative;
+      width: 45px;
+      height: 45px;
+      border-radius: 22.5px;
+      background-color: $colorPrimary;
+      border: 1px solid $colorPrimary;
+    }
   }
 }

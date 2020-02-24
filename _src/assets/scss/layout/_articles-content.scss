@@ -1,49 +1,28 @@
 .articles-style {
   margin: 0 70px 45px 70px;
   text-align: $textCenter;
-}
-.articles-title {
-  font-family: $fontTitles;
-  font-size: 18px;
-  font-weight: $fontBold;
-  line-height: 1.67;
-  width: 184px;
-  height: 30px;
-}
-.articles-content {
-  width: 180px;
-  height: 63px;
-  font-family: $fontText;
-  font-size: 18px;
-  line-height: 1.67;
-}
-
-@media all and (min-width: 768px) {
-  .articles-style {
+  @media all and (min-width: 768px) {
     margin: 0 0;
   }
   .articles-title {
-    width: 210px;
-    font-size: 24px;
-    line-height: 1.25;
-    display: inline-block;
+    font-family: $fontTitles;
+    font-size: 18px;
+    font-weight: $fontBold;
+    line-height: 1.67;
+    @media all and (min-width: 768px) {
+      font-size: 24px;
+      line-height: 1.25;
+      display: inline-block;
+    }
   }
   .articles-content {
-    font-size: 20px;
-    line-height: 1.5;
-    width: 212.3px;
-    display: inline-block;
-  }
-}
-@media all and (min-width: 1280px) {
-  .articles-style {
-    width: 353.8px;
-    height: 98px;
-  }
-  .articles-title {
-    display: inline-block;
-  }
-  .articles-content {
-    display: inline-block;
+    font-family: $fontText;
+    font-size: 18px;
+    line-height: 1.67;
+    @media all and (min-width: 768px) {
+      font-size: 20px;
+      line-height: 1.5;
+      width: 212.3px;
+    }
   }
 }

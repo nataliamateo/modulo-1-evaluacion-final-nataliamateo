@@ -1,53 +1,44 @@
 .main-articles {
   background-color: $colorBackground-1;
-}
-.articles-principal-title {
-  width: 290px;
-  height: 30px;
-  font-family: $fontTitles;
-  font-size: 24px;
-  font-weight: $fontBold;
-  line-height: 1.25;
-  text-align: $textCenter;
-  margin: 30px 15px 45px 15px;
-  text-transform: $textCapitalize;
-}
-.articles-button {
-  width: 184px;
-  height: 45px;
-  border-radius: 22.5px;
-  background-color: $colorButton;
-  border: 1px solid $colorButton;
-  color: $colorPrimary;
-  font-family: $fontText;
-  font-weight: $fontMedium;
-  font-size: 20px;
-}
-.articles-button:hover {
-  border: 2px solid $colorButton;
-  background-color: $colorPrimary;
-  color: $colorButton;
-}
-@media all and (min-width: 768px) {
   .articles-principal-title {
-    margin: 30px 121px 45px 121px;
-    font-size: 26px;
-    line-height: 1.73;
+    font-family: $fontTitles;
+    font-size: 24px;
+    font-weight: $fontBold;
+    line-height: 1.25;
+    text-align: $textCenter;
+    text-transform: $textCapitalize;
+    @media all and (min-width: 768px) {
+      font-size: 26px;
+      line-height: 1.73;
+    }
+    @media all and (min-width: 1280px) {
+      font-size: 32px;
+      line-height: 1.41;
+    }
   }
   .articles-button {
-    width: 210px;
-    margin: 15px 241px 60px 239px;
-    line-height: 2.25;
-  }
-}
-@media all and (min-width: 1280px) {
-  .articles-principal-title {
-    width: 730px;
+    width: 184px;
     height: 45px;
-    font-size: 32px;
-    line-height: 1.41;
-  }
-  .articles-button {
-    width: 255px;
+    border-radius: 22.5px;
+    background-color: $colorButton;
+    border: 1px solid $colorButton;
+    color: $colorPrimary;
+    font-family: $fontText;
+    font-weight: $fontMedium;
+    font-size: 20px;
+    &:hover {
+      border: 2px solid $colorButton;
+      background-color: $colorPrimary;
+      color: $colorButton;
+    }
+    @media all and (min-width: 768px) {
+      width: 210px;
+      margin-bottom: 60px;
+      margin-top: 45px;
+      line-height: 2.25;
+    }
+    @media all and (min-width: 1280px) {
+      width: 255px;
+    }
   }
 }

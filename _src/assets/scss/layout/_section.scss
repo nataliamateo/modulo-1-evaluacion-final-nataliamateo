@@ -1,100 +1,82 @@
 .main-tips {
   padding: 0 15px;
-}
-.insomnia-style {
-  font-family: $fontText;
-  font-size: 14px;
-  color: $colorSecundary;
-  width: 90px;
-  height: 30px;
-  margin: 30px 215px 0 0px;
-}
-.section-title {
-  width: 290px;
-  height: 60px;
-  font-family: $fontTitles;
-  font-size: 24px;
-  font-weight: $fontBold;
-  line-height: 1.25;
-  margin-bottom: 15px;
-  text-transform: $textCapitalize;
-}
-
-.section-text {
-  width: 290px;
-  height: 120px;
-  font-family: $fontText;
-  font-size: 18px;
-  line-height: 1.67;
-  color: $colorTertiary;
-  margin-bottom: 30px;
-}
-.section-button {
-  width: 76px;
-  height: 45px;
-  border-radius: 22.5px;
-  border: 2px solid $colorButton;
-  margin-bottom: 45px;
-  background-color: $colorPrimary;
-  font-family: $fontText;
-  font-weight: $fontMedium;
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 2.25;
-  color: $colorButton;
-}
-.section-button:hover {
-  border: 2px solid $colorPrimary;
-  background-color: $colorButton;
-  color: $colorPrimary;
-}
-@media all and(min-width: 768px) {
-  .main-tips {
+  @media all and(min-width: 768px) {
     padding: 0 39px;
   }
-  .insomnia-style {
-    font-size: 14px;
-    width: 216px;
-    height: 30px;
-    margin: 30px 513px 0 0px;
-  }
-  .section-title {
-    width: 690px;
-    height: 45px;
-    font-size: 26px;
-    line-height: 1.73;
-    margin-bottom: 30px;
-  }
-  .section-text {
-    width: 690px;
-    height: 60px;
-    font-size: 20px;
-    line-height: 1.5;
-  }
-  .section-button {
-    width: 91px;
-    height: 45px;
-    margin-bottom: 60px;
-  }
-}
-@media all and(min-width: 1280px) {
-  .main-tips {
+  @media all and(min-width: 1280px) {
     padding: 0 275px;
   }
   .insomnia-style {
-    font-size: 16px;
-    width: 360px;
-    margin: 60px 645px 0 0px;
+    font-family: $fontText;
+    font-size: 14px;
+    color: $colorSecundary;
+    width: 90px;
+    height: 30px;
+    margin: 30px 215px 0 0px;
+    @media all and(min-width: 768px) {
+      font-size: 14px;
+    }
+    @media all and(min-width: 1280px) {
+      font-size: 16px;
+      width: 360px;
+      margin-top: 60px;
+    }
   }
   .section-title {
-    width: 730px;
-    font-size: 32px;
-    line-height: 1.41;
+    width: 290px;
+    font-family: $fontTitles;
+    font-size: 24px;
+    font-weight: $fontBold;
+    line-height: 1.25;
+    margin-bottom: 15px;
+    text-transform: $textCapitalize;
+    @media all and(min-width: 768px) {
+      width: 690px;
+      font-size: 26px;
+      line-height: 1.73;
+      margin-bottom: 30px;
+    }
+    @media all and(min-width: 1280px) {
+      font-size: 32px;
+      line-height: 1.41;
+    }
   }
   .section-text {
-    width: 730px;
+    font-family: $fontText;
+    font-size: 18px;
+    line-height: 1.67;
+    color: $colorTertiary;
+    margin-bottom: 30px;
+    @media all and(min-width: 768px) {
+      width: 690px;
+      height: 60px;
+      font-size: 20px;
+      line-height: 1.5;
+    }
   }
   .section-button {
-    width: 160px;
+    width: 76px;
+    height: 45px;
+    border-radius: 22.5px;
+    border: 2px solid $colorButton;
+    margin-bottom: 45px;
+    background-color: $colorPrimary;
+    font-family: $fontText;
+    font-weight: $fontMedium;
+    font-size: 20px;
+    color: $colorButton;
+    &:hover {
+      border: 2px solid $colorPrimary;
+      background-color: $colorButton;
+      color: $colorPrimary;
+    }
+    @media all and(min-width: 768px) {
+      width: 91px;
+      height: 45px;
+      margin-bottom: 60px;
+    }
+    @media all and(min-width: 1280px) {
+      width: 160px;
+    }
   }
 }
