@@ -1,17 +1,28 @@
 .footer-style {
-  background-color: #304268;
-  text-align: center;
+  background-color: $colorBackground-2;
+  text-align: $textCenter;
 }
 .button-footer {
   display: inline-block;
   width: 45px;
   height: 45px;
   border-radius: 22.5px;
-  border: 1px solid white;
-  background-color: white;
+  border: 1px solid $colorPrimary;
+  background-color: $colorPrimary;
   position: relative;
-  text-align: center;
+  text-align: $textCenter;
   bottom: 22.5px;
+  animation-name: anim-footer;
+  animation-duration: 10s;
+}
+@keyframes anim-footer {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    background-color: $colorBackground-2;
+    transform: rotate(360deg);
+  }
 }
 .img-footer {
   margin-top: 10px;
@@ -19,7 +30,7 @@
 
 .menu-item {
   list-style: none;
-  text-align: center;
+  text-align: $textCenter;
 }
 
 .footer-menu {
@@ -30,20 +41,20 @@
   padding-bottom: 30px;
 }
 .menu {
-  font-family: "Roboto";
+  font-family: $fontText;
   font-size: 16px;
-  text-transform: uppercase;
+  text-transform: $textUppercase;
   line-height: 1.88;
 }
 .menu-links {
-  color: white;
+  color: $colorPrimary;
   text-decoration: none;
 }
 .copyright {
-  font-family: "Roboto";
+  font-family: $fontText;
   font-size: 14px;
   line-height: 2.14;
-  color: white;
+  color: $colorPrimary;
   padding-top: 30px;
 }
 @media all and (min-width: 768px) {
@@ -51,7 +62,7 @@
     padding: 0 39px;
   }
   .menu-item {
-    text-align: left;
+    text-align: $textLeft;
   }
   .menu.firts {
     width: 210px;
@@ -61,7 +72,7 @@
     width: 210px;
   }
   .copyright {
-    text-align: left;
+    text-align: $textLeft;
   }
 }
 @media all and (min-width: 1280px) {

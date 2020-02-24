@@ -2,9 +2,9 @@
   padding: 0 15px;
 }
 .insomnia-style {
-  font-family: "Roboto";
+  font-family: $fontText;
   font-size: 14px;
-  color: #8ccbea;
+  color: $colorSecundary;
   width: 90px;
   height: 30px;
   margin: 30px 215px 0 0px;
@@ -12,50 +12,48 @@
 .section-title {
   width: 290px;
   height: 60px;
-  font-family: "Roboto Slab";
+  font-family: $fontTitles;
   font-size: 24px;
-  font-weight: bold;
+  font-weight: $fontBold;
   line-height: 1.25;
   margin-bottom: 15px;
-  text-transform: capitalize;
+  text-transform: $textCapitalize;
 }
 
 .section-text {
   width: 290px;
   height: 120px;
-  font-family: "Roboto";
+  font-family: $fontText;
   font-size: 18px;
   line-height: 1.67;
-  color: #4a4a4a;
+  color: $colorTertiary;
   margin-bottom: 30px;
 }
 .section-button {
   width: 76px;
   height: 45px;
   border-radius: 22.5px;
-  border: 2px solid #f26002;
+  border: 2px solid $colorButton;
   margin-bottom: 45px;
-  background-color: white;
-  font-family: "Roboto";
-  font-weight: Medium;
+  background-color: $colorPrimary;
+  font-family: $fontText;
+  font-weight: $fontMedium;
   font-size: 20px;
   font-weight: 500;
   line-height: 2.25;
-  color: #f26002;
+  color: $colorButton;
 }
 .section-button:hover {
-  border: 2px solid #ffffff;
-  background-color: #f26002;
-  color: #ffffff;
+  border: 2px solid $colorPrimary;
+  background-color: $colorButton;
+  color: $colorPrimary;
 }
 @media all and(min-width: 768px) {
   .main-tips {
     padding: 0 39px;
   }
   .insomnia-style {
-    font-family: "Roboto";
     font-size: 14px;
-    color: #8ccbea;
     width: 216px;
     height: 30px;
     margin: 30px 513px 0 0px;

@@ -1,11 +1,11 @@
 .articles-style {
   margin: 0 70px 45px 70px;
-  text-align: center;
+  text-align: $textCenter;
 }
 .articles-title {
-  font-family: "Roboto Slab";
+  font-family: $fontTitles;
   font-size: 18px;
-  font-weight: bold;
+  font-weight: $fontBold;
   line-height: 1.67;
   width: 184px;
   height: 30px;
@@ -13,7 +13,7 @@
 .articles-content {
   width: 180px;
   height: 63px;
-  font-family: "Roboto";
+  font-family: $fontText;
   font-size: 18px;
   line-height: 1.67;
 }
@@ -40,7 +40,6 @@
     width: 353.8px;
     height: 98px;
   }
-
   .articles-title {
     display: inline-block;
   }

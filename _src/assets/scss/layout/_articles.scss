@@ -1,38 +1,37 @@
 .main-articles {
-  background-color: #eff9ff;
+  background-color: $colorBackground-1;
 }
 .articles-principal-title {
   width: 290px;
   height: 30px;
-  font-family: "Roboto Slab";
+  font-family: $fontTitles;
   font-size: 24px;
-  font-weight: bold;
+  font-weight: $fontBold;
   line-height: 1.25;
-  text-align: center;
+  text-align: $textCenter;
   margin: 30px 15px 45px 15px;
-  text-transform: capitalize;
+  text-transform: $textCapitalize;
 }
 .articles-button {
   width: 184px;
   height: 45px;
   border-radius: 22.5px;
-  background-color: #f26002;
-  border: 1px solid #f26002;
-  color: white;
-  font-family: "Roboto";
-  font-weight: Medium;
+  background-color: $colorButton;
+  border: 1px solid $colorButton;
+  color: $colorPrimary;
+  font-family: $fontText;
+  font-weight: $fontMedium;
   font-size: 20px;
 }
 .articles-button:hover {
-  border: 2px solid #f26002;
-  background-color: #ffffff;
-  color: #f26002;
+  border: 2px solid $colorButton;
+  background-color: $colorPrimary;
+  color: $colorButton;
 }
 @media all and (min-width: 768px) {
   .articles-principal-title {
     margin: 30px 121px 45px 121px;
     font-size: 26px;
-    font-weight: bold;
     line-height: 1.73;
   }
   .articles-button {
