@@ -46,12 +46,13 @@
     font-size: 18px;
     line-height: 1.67;
     color: $colorTertiary;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     @media all and(min-width: 768px) {
       width: 690px;
       height: 60px;
       font-size: 20px;
       line-height: 1.5;
+      margin-bottom: 30px;
     }
   }
   .section-button {
@@ -60,11 +61,11 @@
     border-radius: 22.5px;
     border: 2px solid $colorButton;
     margin-bottom: 45px;
-    background-color: $colorPrimary;
+    background-color: $colorButton;
     font-family: $fontText;
     font-weight: $fontMedium;
     font-size: 20px;
-    color: $colorButton;
+    color: $colorPrimary;
     &:hover {
       border: 2px solid $colorPrimary;
       background-color: $colorButton;
