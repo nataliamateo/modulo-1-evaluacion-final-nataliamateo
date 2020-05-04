@@ -38,9 +38,7 @@
 
 @media all and (min-width: 768px) {
   // Medias para articles
-
   .main-articles {
-    display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
   }
@@ -59,7 +57,6 @@
   .articles-button {
     grid-column-start: 1;
     grid-column-end: 4;
-    justify-self: center;
     align-self: center;
   }
   // Medias para el footer

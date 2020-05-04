@@ -29,7 +29,9 @@
 }
 
 .footer-menu {
+  display: flex;
   padding-bottom: 45px;
+  flex-direction: column;
   @media all and (min-width: 768px) {
     padding-left: 39px;
     padding-right: 39px;

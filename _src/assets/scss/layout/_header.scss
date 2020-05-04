@@ -1,5 +1,5 @@
 .header-background {
-  background: url("../images/cover.jpg") center center no-repeat;
+  background: url('../images/cover.jpg') center center no-repeat;
   background-size: cover;
   height: 100vh;
   .header-menu {
@@ -8,6 +8,10 @@
     position: fixed;
     width: 44px;
     height: 44px;
+    transition: color ease 0.8s;
+    &:hover {
+      background-color: red;
+    }
     .header-icon {
       margin: 15px 14px;
     }
